@@ -98,7 +98,7 @@ public class MenuBar extends javax.swing.JFrame {
     private void jm_Ventana1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jm_Ventana1ActionPerformed
         private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {                                           
         Ventana ventana = new Ventana();
-        escritorio.add(ventana);
+        Escritorio.add(ventana);
         ventana.show();
     }//GEN-LAST:event_jm_Ventana1ActionPerformed
 
